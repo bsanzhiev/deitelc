@@ -7,7 +7,7 @@ int main(void) {
 
   for (number = 2; number <= 100; number += 2) {
     sum += number;
-  }
+  } // конец инструкции for
 
-  printf("Sum is %u\n", sum);
-}
+  printf("Sum is %u\n", sum); // вывести сумму
+} // конец функции main
